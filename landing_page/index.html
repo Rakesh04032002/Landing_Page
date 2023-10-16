@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Book Journey - Your next adventure awaits.">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Book Journey</title>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a class="brand" href="/">Book Your Journey</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="signin" href="#">Sign in</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="booking-form">
+            <form action="submit.php" method="post">
+                <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="num-travelers">Number of Travelers:</label>
+                    <input type="number" id="num-travelers" name="num-travelers" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">Contact Email:</label>
+                    <input type="email" id="contact-email" name="contact-email" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Book Journey</p>
+    </footer>
+</body>
+</html>

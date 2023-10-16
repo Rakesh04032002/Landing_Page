@@ -1,0 +1,109 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('https://img.freepik.com/premium-photo/creative-summer-beach-composition-suitcase-blue-background-travel-concept-idea-3d-rendering-ai-generative_974186-614.jpg?w=360');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 20px;
+    padding: 20px;
+}
+nav{
+    padding: 15px 0px;
+}
+nav ul{
+    text-align: center;
+    list-style:none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    margin:10px;
+}
+
+.brand{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+main {
+    
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top:20px ;
+    padding: 5px 50px;
+}
+
+/* Form styles */
+#booking-form {
+    opacity: 0.8;
+    padding: 32px 0px;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+textarea {
+    box-sizing: border-box; /* Include padding and border in the width */
+    width: 100%; /* Occupy 100% of the available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#about-content h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#about-content p {
+    margin: 10px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
